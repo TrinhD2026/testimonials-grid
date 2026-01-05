@@ -172,7 +172,7 @@ main {
 
 @media screen and (width >= 70rem) {
     main {
-        width: clamp(65rem, 80%, 100rem);
+        width: clamp(65rem, 70%, 80rem);
         grid-template-areas:
             'first-card first-card second-card last-card'
             'third-card fourth-card fourth-card last-card';
