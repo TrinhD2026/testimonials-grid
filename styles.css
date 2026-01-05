@@ -10,9 +10,13 @@
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 7%);
     --small-padding: clamp(2rem, 1.9rem + 0.6vw, 2.7rem);
-    --small-text-size: clamp(0.7rem, 0.6rem + 0.6vw, 1.1rem);
-    --normal-text-size: clamp(0.9rem, 0.8rem + 0.6vw, 1.4rem);
-    --header-text-size: clamp(1.2rem, 1.1rem + 0.6vw, 1.9rem);
+    --small-text-size: clamp(0.6rem, 0.5rem + 0.6vw, 0.8rem);
+    --normal-text-size: clamp(0.9rem, 0.8rem + 0.6vw, 1.2rem);
+    --header-text-size: clamp(1.3rem, 1rem + 0.6vw, 1.6rem);
+}
+
+html {
+    font-size: 13px;
 }
 
 *,
@@ -172,7 +176,7 @@ main {
 
 @media screen and (width >= 70rem) {
     main {
-        width: clamp(65rem, 70%, 80rem);
+        width: clamp(65rem, 70%, 100rem);
         grid-template-areas:
             'first-card first-card second-card last-card'
             'third-card fourth-card fourth-card last-card';
